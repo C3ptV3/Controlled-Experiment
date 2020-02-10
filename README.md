@@ -7,9 +7,9 @@ Software Engineering
 
 
 
-## Report from controlled experiment:
+# Report from controlled experiment:
 
-## Evaluating the productivity of TDD method against TAC
+# Evaluating the productivity of TDD method against TAC
 
 
 
@@ -35,23 +35,9 @@ Poznan, 15.01.2020
 
 # Introduction
 
-This report presents design and summarizes results of the experiment **Evaluating the productivity of TDD method against TAC**. The experiment was a part of the project realized in the frame of Quality Management and Experimental Software Engineering classes at Poznan University of
-#
-[ANNOTATION:
+This report presents design and summarizes results of the experiment **Evaluating the productivity of TDD method against TAC**. The experiment was a part of the project realized in the frame of Quality Management and Experimental Software Engineering classes at Poznan University of Technology.
 
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:01:00&#39;MO
-NOTE: &#39;You can extend the introduction if you like.&#39;]
-Technology.
-
-# Experiment
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:03:00&#39;MO
-NOTE: &#39;You should define the goal of the experiment here, e.g. using the template known from GQM&#39;]
-definition
+# Experiment definition
 
 The goal of the experiment was to:
 
@@ -81,14 +67,7 @@ cases and correct code.
 
 # Experiment design
 
-##
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:07:00&#39;MO
-NOTE: &#39;Describe a priori considered hypotheses of you study.&#39;]
-Hypotheses
+## Hypotheses
 
 The experiment aimed at testing the following null hypotheses.
 
@@ -100,17 +79,7 @@ H1: there is  difference in the productivity between TDD and
 
 TAC.
 
-## Variables and confounding
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:08:00&#39;MO
-NOTE: &#39;Define:&#39;
-NOTE: &#39;Independent variables (possible values, measurement scales)&#39;
-NOTE: &#39;Dependent variables (possible values, measurement scales)&#39;
-NOTE: &#39;Confounding factors (how they were controlled)&#39;]
-factors
+## Variables and confounding factors
 
 Independent variables
 
@@ -124,58 +93,24 @@ Dependent variable
 MeanTime -It is the mean time for writing and executing a test suite.
 
 ## Participants
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:12:00&#39;MO
-NOTE: &#39;Describe the participants selection strategy, the number of participants and any of their characteristics important to the study. &#39;]
 
 The 8 subjects were selected among a set of students with comparable skills: they had 4 years of experience in using c and in computer programming.
 
-##
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:14:00&#39;MO
-NOTE: &#39;Describe the objects of the experiment – the things that participants worked on, e.g., piece of code they were given, etc.&#39;]
-Objects
+## Objects
 
 The subjects were required to solve simple &quot;String manipulation&quot; problem. The programming language was C, while &quot;onlinegdb.com&quot; compiler  was chosen as development environments. For precision&#39;s sake, the subjects were required to write the code and the test suites for the requirements.
 
-## Test
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:17:00&#39;MO
-NOTE: &#39;Discuss how variables, participants and objects were assigned together. E.g., participants were planned to be divided into two groups : G1 used \&lt;value of independent variable\&gt; and G2 was supposed to use \&lt;value of independent variable\&gt; … to [do something] with \&lt;object\&gt; .&#39;]
-definition
+## Test definition
 
 Subjects was divided in 2 groups randomly to perform the task with TDD and TAC method.
 
 # Experiment operation
 
-## Prepared
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:19:00&#39;MO
-NOTE: &#39;Describe any instrumentation given to the participants. This includes introductory lecture, any handouts, any sheets to fill, etc. (of course both in manual and electronic form.&#39;]
-instrumentation
+## Prepared instrumentation
 
 As the subjects had no previous experience on TDD, we performed introductory  explanation of the method before the experiment.
 
-##
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:20:00&#39;MO
-NOTE: &#39;Say when the experiment was executed. How it looked like (give steps). State how long each step taken. State how the data was collected.&#39;]
-Execution
+## Execution
 
 The experiment consisted 1 run: run lasted approximately 1 hour.
 
@@ -193,17 +128,7 @@ At the end of the run, the data about the time collected from each subject.
 
 # Analysis and interpretation
 
-## Descriptive
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:23:00&#39;MO
-NOTE: &#39;In this section you should:&#39;
-NOTE: &#39; Discuss the completeness of the data&#39;
-NOTE: &#39; &quot;Visualize the data&quot; – either present some plots presenting the distributions of the results or give descriptive statistics&#39;
-NOTE: &#39; Identify and analyze the outliers&#39;]
-statistics
+## Descriptive statistics
 
 The total time for performing run of each subject(Independently from each other.)
 
@@ -233,19 +158,7 @@ Quick summary of the data. The important factor for the experiment is MeanTime, 
 
  Max.   :47.00   Max.   :32.0
 
-## Hypotheses
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:29:00&#39;MO
-NOTE: &#39; Here you should:&#39;
-NOTE: &#39; justify the choice of statistical tests used &#39;
-NOTE: &#39; present the hypotheses (null and alternative)&#39;
-NOTE: &#39; show the results of the tests&#39;
-NOTE: &#39;perform power analysis (especially important if you were not able to reject Null hypothesis!!!!!)&#39;
-NOTE: &#39;&#39;]
-testing
+## Hypotheses testing
 
 H0: there is no difference in the productivity between TDD and
 
@@ -275,32 +188,13 @@ mean of x mean of y
 
 MeanTime p-value=0.004735 There is evidence that TDD requires more time in average than TAC. And proves H1
 
-## Interpretation of the
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:27:00&#39;MO
-NOTE: &#39;interpret the results – explain what the obtained results indicate&#39;]
-results
+## Interpretation of the results
 
 The statistical test of hypotheses produced the following results:
 
 • there is evidence that TDD requires more time than TAC.
 
-# Threats to
-#
-[ANNOTATION:
-
-BY &#39;Mirosław Ochodek&#39;
-ON &#39;2014-11-24T16:29:00&#39;MO
-NOTE: &#39;Discus:&#39;
-NOTE: &#39;Conclusion validity&#39;
-NOTE: &#39;Internal validity&#39;
-NOTE: &#39;Construct validity&#39;
-NOTE: &#39;External validity&#39;
-NOTE: &#39;&#39;]
-validity
+# Threats to validity
 
 The following issues have been dealt with:
 
